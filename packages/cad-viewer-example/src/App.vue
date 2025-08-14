@@ -1,7 +1,7 @@
 <template>
   <div id="app-root">
     <MlCadViewer
-      locale="en"
+      locale="zh"
       url="https://cad-data.r2.nextdown.dev/dwg/coal-to-methanol.dwg"
     />
   </div>
