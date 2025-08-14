@@ -57,7 +57,7 @@ export class AcApFontLoader implements AcDbFontLoader {
    */
   async getAvaiableFonts() {
     if (this._avaiableFonts.length == 0) {
-      const baseUrl = 'https://cdn.jsdelivr.net/gh/mlight-lee/cad-data/fonts/'
+      const baseUrl = 'https://cad-data.r2.nextdown.dev/fonts/'
       const fontMetaDataUrl = baseUrl + 'fonts.json'
       try {
         const response = await fetch(fontMetaDataUrl)
