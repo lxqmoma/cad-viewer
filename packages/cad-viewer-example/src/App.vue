@@ -2,7 +2,7 @@
   <div id="app-root">
     <MlCadViewer
       locale="en"
-      url="https://cdn.jsdelivr.net/gh/mlight-lee/cad-data/data/anteen.dwg"
+      url="https://r2.nextdown.dev/dwg/coal-to-methanol.dwg"
     />
   </div>
 </template>
